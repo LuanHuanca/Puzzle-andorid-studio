@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDA91"
+    tools:context=".HomeFragment">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROMPECOCOS"
+            android:textSize="43dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textStyle="bold"
+            android:textColor="#ED0037"
+            android:letterSpacing="0.20"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2023"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:letterSpacing="0.5"
+            android:textColor="#000000"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIENVENIDO"
+            android:textSize="45dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#000000"
+            />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/puzzle" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etName"
+            android:hint="Ingrese su nombre"
+            android:textColorHint="#000000"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:textColor="#000000"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F88DA6"
+            android:layout_gravity="center"
+            android:textSize="40dp"
+            android:text="Iniciar"
+            android:id="@+id/btIniciar"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
